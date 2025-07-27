@@ -1,0 +1,235 @@
+.Myskill {
+  padding: 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* max-width: 1800px; */
+  gap: 40px;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.Myskill-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.Myskill-title h1 {
+  padding: 0px 30px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.Myskill-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  max-width: 150px;
+}
+.Myskills-containner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1400px;
+  width: 100%;
+}
+.Myskills-containner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Myskills-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.skill-html,
+.skill-css,
+.skill-javascript,
+.skill-react,
+.skill-node,
+.skill-Mongo,
+.skill-Express,
+.skill-github {
+  background-color: #121111;
+  border: 2px solid #e7dfdf;
+  border-radius: 10px;
+  width: 280px;
+  /* height: 300px; */
+  height: auto;
+  padding: 20px;
+  margin-bottom: 40px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: 2px 2px 8px rgba(239, 238, 241, 0.2);
+  transition: 0.5s;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+.skill-html:hover,
+.skill-css:hover,
+.skill-javascript:hover,
+.skill-react:hover,
+.skill-node:hover,
+.skill-Mongo:hover,
+.skill-Express:hover,
+.skill-github:hover {
+  /* transform: translateY(-5px); */
+  transform: scale(1.1);
+  transition: 0.5s;
+  border: 4px solid rgb(3, 69, 162);
+  box-shadow: 1px 1px 40px rgba(14, 223, 223, 0.4);
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+}
+.skill-logo img {
+  width: 40px;
+  height: auto;
+}
+.skill-logo-Mongo img {
+  width: 200px;
+}
+.skill-Express img {
+  width: 50px;
+}
+h3 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+p {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+/** >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+/**                   Media quary                  */
+/** >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+
+/*^========== EXTRA LARGE SCREENS (1400px) ========== */
+@media screen and (min-width: 1280px) and (max-width: 1400px) {
+  .Myskill {
+    padding: 60px 40px;
+    gap: 60px;
+  }
+  .Myskill-title h1 {
+    font-size: 50px;
+  }
+  .skill-html,
+  .skill-css,
+  .skill-javascript,
+  .skill-react,
+  .skill-node,
+  .skill-Mongo,
+  .skill-Express,
+  .skill-github {
+    width: 220px;
+    padding: 15px;
+  }
+}
+
+/*^ ========== DESKTOPS (1024px - 1279px) ========== */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .Myskill {
+    padding: 50px 30px;
+    gap: 40px;
+  }
+  .Myskill-title h1 {
+    font-size: 50px;
+  }
+  .skill-html,
+  .skill-css,
+  .skill-javascript,
+  .skill-react,
+  .skill-node,
+  .skill-Mongo,
+  .skill-Express,
+  .skill-github {
+    width: 320px;
+  }
+}
+
+/*^ ========== TABLETS (768px - 1023px) ========== */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .Myskill {
+    padding: 40px 20px;
+    gap: 30px;
+  }
+  .Myskill-title h1 {
+    font-size: 42px;
+  }
+  .skill-html,
+  .skill-css,
+  .skill-javascript,
+  .skill-react,
+  .skill-node,
+  .skill-Mongo,
+  .skill-Express,
+  .skill-github {
+    width: 250px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+/* ^========== SMALL TABLETS / LARGE PHONES (481px - 767px) ========== */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .Myskill {
+    padding: 30px 15px;
+    gap: 25px;
+  }
+  .Myskill-title h1 {
+    font-size: 36px;
+  }
+  .skill-html,
+  .skill-css,
+  .skill-javascript,
+  .skill-react,
+  .skill-node,
+  .skill-Mongo,
+  .skill-Express,
+  .skill-github {
+    width: 50%;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+/*^ ========== MOBILE DEVICES (≤ 480px) ========== */
+@media screen and (max-width: 480px) {
+  .Myskill {
+    padding: 20px 10px;
+    gap: 20px;
+  }
+  .Myskill-title h1 {
+    font-size: 30px;
+    padding: 0px 10px;
+  }
+  .Myskill-title img {
+    max-width: 100px;
+  }
+  .skill-html,
+  .skill-css,
+  .skill-javascript,
+  .skill-react,
+  .skill-node,
+  .skill-Mongo,
+  .skill-Express,
+  .skill-github {
+    width: 70%;
+    padding: 15px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 11px;
+  }
+}
