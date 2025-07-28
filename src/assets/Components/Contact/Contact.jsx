@@ -38,7 +38,7 @@ const Contact = () => {
 
           <div className="contact-details">
             <div className="contact-detail">
-              <img src={call_icon} alt="" />
+              <img src={call_icon} alt="call icon" />
               {/* <h5>{phoneNumber}</h5> */}
               <a href={`tel:${phoneNumber}`}>Phone</a>
               {/* {!showNumber ? (
@@ -50,11 +50,11 @@ const Contact = () => {
               )} */}
             </div>
             <div className="contact-detail">
-              <img src={gmail} alt="" />
+              <img src={gmail} alt="gmail icon" />
               <a href="mailto:xyz@gmail.com">E-mail</a>
             </div>
             <div className="contact-detail">
-              <img src={linkedin} alt="" />
+              <img src={linkedin} alt="linkdin icon" />
               <a
                 href="https://www.linkedin.com/in/m-lipsa-jena-155264218/"
                 target="_blank"
@@ -64,7 +64,7 @@ const Contact = () => {
               </a>
             </div>
             <div className="contact-detail">
-              <img src={github_color} alt="" />
+              <img src={github_color} alt="github icon" />
               <a
                 href="https://github.com/M-Lipsa-Jena"
                 target="_blank"
