@@ -22,7 +22,7 @@ const Hero = () => {
         <a href="#contact" className="hero-connect">
           Connect with Me
         </a>
-        <a href="/M. Lipsa Jena.pdf" target="_blank" className="hero-resume">
+        <a href="/M_Lipsa_Jena.pdf" target="_blank" className="hero-resume">
           View Resume
         </a>
       </div>
