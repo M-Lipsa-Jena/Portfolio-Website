@@ -51,34 +51,34 @@ This portfolio serves as a central hub to explore my work, learn about my backgr
 ## 📁 Project Structure
 
 portfolio-website/
-├── .git/ # Git configuration files
-├── node_modules/ # Project dependencies
-├── public/ # Static assets accessible in production
-│ ├── project-screenshots/ # Images of projects
-│ └── Resume.pdf # Resume file
-├── src/ # Application source code
-│ ├── assets/
-│ │ ├── Components/ # All React component folders
-│ │ │ ├── About/ # About.jsx, About.css
-│ │ │ ├── Contact/ # Contact.jsx, Contact.css
-│ │ │ ├── Footer/ # Footer.jsx, Footer.css
-│ │ │ ├── Hero/ # Hero.jsx, Hero.css
-│ │ │ ├── MySkills/ # MySkills.jsx, MySkills.css
-│ │ │ ├── MyWork/ # MyWork.jsx, MyWork.css
-│ │ │ ├── Navbar/ # Navbar.jsx, Navbar.css
-│ │ │ 
-│ │ ├── Icons/ # SVG icon files (GitHub, Gmail, LinkedIn, etc.)
-│ │ └── Images/ # Other media or illustration assets
-│ ├── App.jsx # Main app component
-│ ├── index.css # Global styles
-│ └── main.jsx # Entry point
-├── .eslintrc.cjs # ESLint config
-├── .gitignore # Git ignore rules
-├── index.html # HTML template
-├── package.json # Project metadata and dependencies
-├── package-lock.json # Locked dependency versions
-├── README.md # Project documentation
-└── vite.config.js # Vite build tool configuration
+├── .git/                         # Git configuration files
+├── node_modules/                # Project dependencies
+├── public/                      # Static assets accessible in production
+│   └── Resume.pdf               # Resume file
+├── src/                         # Application source code
+│   ├── assets/
+│   │   ├── Components/          # All React component folders
+│   │   │   ├── About/           # About.jsx, About.css
+│   │   │   ├── Contact/         # Contact.jsx, Contact.css
+│   │   │   ├── Footer/          # Footer.jsx, Footer.css
+│   │   │   ├── Hero/            # Hero.jsx, Hero.css
+│   │   │   ├── MySkills/        # MySkills.jsx, MySkills.css
+│   │   │   ├── MyWork/          # MyWork.jsx, MyWork.css, Mywork.js
+│   │   │   │   └── Project_Images/   # Weather_Forecast_App.jpg, E-commerce.jpg, etc.
+│   │   │   ├── Navbar/          # Navbar.jsx, Navbar.css
+│   │   ├── Icons/               # SVG icon files (GitHub, Gmail, LinkedIn, etc.)
+│   │   └── Images/              # Other media or illustration assets
+│   ├── App.jsx                  # Main app component
+│   ├── index.css                # Global styles
+│   └── main.jsx                 # Entry point
+├── .eslintrc.cjs                # ESLint config
+├── .gitignore                   # Git ignore rules
+├── index.html                   # HTML template
+├── package.json                 # Project metadata and dependencies
+├── package-lock.json            # Locked dependency versions
+├── README.md                    # Project documentation
+└── vite.config.js               # Vite build tool configuration
+
 
 🚀 Getting Started
 
