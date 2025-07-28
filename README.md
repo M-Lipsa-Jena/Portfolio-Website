@@ -66,7 +66,7 @@ portfolio-website/
 │ │ │ ├── MySkills/ # MySkills.jsx, MySkills.css
 │ │ │ ├── MyWork/ # MyWork.jsx, MyWork.css
 │ │ │ ├── Navbar/ # Navbar.jsx, Navbar.css
-│ │ │ └── Services/ # Services.jsx, Services.css
+│ │ │ 
 │ │ ├── Icons/ # SVG icon files (GitHub, Gmail, LinkedIn, etc.)
 │ │ └── Images/ # Other media or illustration assets
 │ ├── App.jsx # Main app component
