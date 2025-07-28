@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import './Navbar.css'
 
 // import underline from '../../../assets/nav_underline.svg' 
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
+import logo from '../../../assets/Components/Nav Bar/LIPSA Logo/Blue Black Minimal Initial Letter Company Technology Logo.png';
 
 const Navbar = () =>{
 
@@ -13,7 +14,7 @@ const Navbar = () =>{
     return(
 
         <div className='navbar'> 
-            <img className='Logo' src='./src/assets/Components/Nav Bar/LIPSA Logo/Blue Black Minimal Initial Letter Company Technology Logo.png' alt='Lipsa Logo' />
+            <img className='Logo' src={logo} alt='Lipsa Logo' />
 
             <ul className='nav-menu'>
 

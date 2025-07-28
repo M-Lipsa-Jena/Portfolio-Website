@@ -1,6 +1,7 @@
 import React from "react";
 import './About.css'
 import theme_pattern from '../../icons/theme_pattern.svg'
+import aboutImage from '../../../assets/Images/IMG_20230813_103725_787~2-01~2.jpeg'
 
 const About =() =>{
     return(
@@ -13,7 +14,8 @@ const About =() =>{
             <div className="about-section">
                 <div className="about-left">
                     {/* my image */}
-                    <img src="./src/assets/Images/IMG_20230813_103725_787~2-01~2.jpeg" alt="Lipsa Image" />
+                    {/* <img src="./src/assets/Images/IMG_20230813_103725_787~2-01~2.jpeg" alt="Lipsa Image" /> */}
+                    <img src={aboutImage} alt="Lipsa Image" />
                 </div>
                 <div className="about-right">
                     <div className="about-para">

@@ -1,10 +1,12 @@
 import React from "react";
 import "./Hero.css";
 
+import heroImage from '../../../assets/Images/Lipsa.jpeg'
+
 const Hero = () => {
   return (
     <div id="home" className="hero">
-      <img src="./src/assets/Images/Lipsa.jpeg" alt="Lipsa Image" />
+      <img src={heroImage} alt="Lipsa Image" />
 
       <h1>
         Hi, I'm <span>M. Lipsa Jena</span>
