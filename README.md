@@ -13,8 +13,13 @@ This portfolio serves as a central hub to explore my work, learn about my backgr
 
 ## 🌐 Live Demo Live Preview
 
-🔗 [View Live Website](https://your-portfolio-name.netlify.app)  
-> *(Replace with your actual Netlify or GitHub Pages link)*
+✅ **Netlify Live Link**:  
+🔗 [https://lipsa-portfolio.netlify.app](https://lipsa-portfolio.netlify.app)
+
+✅ **GitHub Pages Link**:  
+🔗 [https://m-lipsa-jena.github.io/Portfolio-Website/](https://m-lipsa-jena.github.io/Portfolio-Website/)
+
+> Deployed on both Netlify and GitHub Pages for better accessibility and reliability.
 
 ---
 

@@ -10,7 +10,7 @@ export const MyWork_data = [
         w_no: 1,
         w_name:"Project 1: Weather Fetching Api",
         w_img: WeatherForecastImg,
-        w_live: 'https://venerable-eclair-78e541.netlify.app/',
+        w_live: 'https://weather-fetching-app.netlify.app/',
         w_github: "https://github.com/M-Lipsa-Jena/weather-forecast-app" 
     },
     {
