@@ -23,7 +23,7 @@ export const MyWork_data = [
     },
     {
         w_no:3,
-        w_name:"Project 3: Movie Api",
+        w_name:"Project 3: Movie Searching App",
         w_img: MovieApiImg,
         w_live: "https://find-movie-info.netlify.app/",
         w_github: "https://github.com/M-Lipsa-Jena/movie-searching-app"
