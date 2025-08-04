@@ -1,6 +1,7 @@
 import WeatherForecastImg from "../../../assets/Components/MyWork/Project_Images/Weather_Forecast_App.jpg"
 import EcommerceImg from "../../../assets/Components/MyWork/Project_Images/E-commerce.jpg"
-import MovieApiImg from "../../../assets/Components/MyWork/Project_Images/Movie-Api.jpg"
+// import MovieApiImg from "../../../assets/Components/MyWork/Project_Images/Movie-Api.jpg"
+import MovieApiImg from "../../../assets/Components/MyWork/Project_Images/Movie-search-app.jpg"
 import RegistationImg from "../../../assets/Components/MyWork/Project_Images/Registation.jpg"
 import LoginImg from "../../../assets/Components/MyWork/Project_Images/Login.jpg"
 import SignupImg from "../../../assets/Components/MyWork/Project_Images/Signup.jpg"
@@ -23,7 +24,9 @@ export const MyWork_data = [
     {
         w_no:3,
         w_name:"Project 3: Movie Api",
-        w_img: MovieApiImg
+        w_img: MovieApiImg,
+        w_live: "https://find-movie-info.netlify.app/",
+        w_github: "https://github.com/M-Lipsa-Jena/movie-searching-app"
     },
     
     {
