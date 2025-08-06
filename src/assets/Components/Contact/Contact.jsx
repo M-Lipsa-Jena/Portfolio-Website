@@ -4,23 +4,12 @@ import theme_pattern from "../../icons/theme_pattern.svg";
 import gmail from "../../../assets/gmail.svg";
 import linkedin from "../../../assets/linkedin.svg";
 import github_color from "../../../assets/icons/github_color.svg";
-import call_icon from "../../../assets/call_icon.svg";
+// import call_icon from "../../../assets/call_icon.svg";
 
 const Contact = () => {
-  const [showNumber, setShowNumber] = useState(false);
-
   useEffect(() => {
     console.log("Hi i am contact");
   }, []);
-
-  const phonePart1 = "986";
-  const phonePart2 = "120";
-  const phonePart3 = "9739";
-  const phoneNumber = `${phonePart1}${phonePart2}${phonePart3}`;
-
-  const handleShowNumber = () => {
-    setShowNumber(true);
-  };
 
   return (
     <div id="contact" className="contact">
@@ -37,18 +26,7 @@ const Contact = () => {
           </p>
 
           <div className="contact-details">
-            <div className="contact-detail">
-              <img src={call_icon} alt="call icon" />
-              {/* <h5>{phoneNumber}</h5> */}
-              <a href={`tel:${phoneNumber}`}>Phone</a>
-              {/* {!showNumber ? (
-                <button className="show-number-btn" onClick={handleShowNumber}>
-                  Show Number
-                </button>
-              ) : (
-                <h5>{phoneNumber}</h5>
-              )} */}
-            </div>
+            {/* Phone contact removed as requested */}
             <div className="contact-detail">
               <img src={gmail} alt="gmail icon" />
               <a href="mailto:xyz@gmail.com">E-mail</a>
